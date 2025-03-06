@@ -1,0 +1,16 @@
+var teclado = require("prompt-sync")();
+console.log("-----------------------");
+console.log("-    Calculo media    -");
+console.log("-----------------------");
+var n1 = parseInt(teclado("Digite a nota N1: "));
+var n2 = parseInt(teclado("Digite a nota N2:  "));
+var n3 = parseInt(teclado("Digite a nota N3: "));
+var n4 = parseInt(teclado("Digite a nota N4:  "));
+var n5 = parseInt(teclado("Digite a nota N5: "));
+var n6 = parseInt(teclado("Digite a nota N6:  "));
+var n7 = parseInt(teclado("Digite a nota N7: "));
+var n8 = parseInt(teclado("Digite a nota N8:  "));
+var n9 = parseInt(teclado("Digite a nota N9: "));
+var n10 = parseInt(teclado("Digite a nota N10:  "));
+var media = (n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10) / 2;
+console.log(" A media desses n\u00FAmeros \u00E9 ".concat(media));
